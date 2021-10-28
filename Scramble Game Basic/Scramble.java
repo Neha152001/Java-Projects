@@ -1,7 +1,6 @@
-
 import java.util.*;
 
- public class scr
+public class Scramble
 {
 public static void main(String[] args)
 {
@@ -15,6 +14,7 @@ System.out.println("4.Baseball");
 System.out.println("5.Exit");
 System.out.println("Enter your choice ");
 int c=sc.nextInt();
+System.out.println("You must guess the word based on the sport you have selected above ");
 switch(c)
 {
 case 1:
